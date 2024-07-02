@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+  <display-name>Курсовая работа JAVA</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>/main.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>addMachine</servlet-name>
+    <jsp-file>/addMachine.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addMachine</servlet-name>
+    <url-pattern>/addMachine</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addMachineError</servlet-name>
+    <jsp-file>/addMachineError.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addMachineError</servlet-name>
+    <url-pattern>/addError</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deleteMachineError</servlet-name>
+    <jsp-file>/deleteMachineError.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteMachineError</servlet-name>
+    <url-pattern>/deleteError</url-pattern>
+  </servlet-mapping>
+
+</web-app>

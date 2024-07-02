@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+body {
+    background-color: #edffed;
+    font-family: 'Jost', sans-serif;
+}
+
+.all_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+    color: #ff9600;
+}
+
+.all_center form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.cool-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    background-color: #edffed;
+    color: #3a7013;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+}
+
+
+
+.scroll-table-body {
+	height: 450px;
+	overflow-x:auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.scroll-table table {
+	width:100%;
+	table-layout: fixed;
+	border: none;
+    border-collapse: collapse;
+}
+.scroll-table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #3a7013;
+    color: #eee;
+	font-size: 14px;
+}
+.scroll-table tbody td {
+    background-color: #defdde;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+	text-align: left;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: middle;
+}
